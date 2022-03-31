@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(39, 37, 54);
+}
+
+
+h1{
+    margin-left: 5%;
+    color: white
+}
+
+
+.picture{
+    width: 1000px;
+    height: 500px;
+    margin-left: 5%;
+    display:flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+button{
+    background: rgb(191,99,96);
+    border-radius:25px;
+    border-width:0px;
+}
+
+
+li{ 
+    margin-left: 1%;
+    list-style-type: none;
+    height: 30%;
+} 
+
+.download{
+    margin-left: 10%;
+    height: 1000PX;
+    width: 250px;
+    color:white;
+}

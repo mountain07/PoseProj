@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Pose Estimation Result</title>
+    <link rel="stylesheet" type="text/css" href="css/result.css" />
+</head>
+<body>
+    <h1>Result</h1>
+    <div style="display: flex;height: 100px;flex-direction: column;">
+        <a id="downloadc" class="download">Download all .csv</a>
+        <a id="downloadd" class="download">Download all .data</a>
+        <a id="downloadt" class="download">Download all .txt</a>
+    </div>
+    <ul id='bg' class="picture"></ul>
+    <div id="ind">
+        <div id="innerdiv" style="display:flex;flex-direction: column; position:absolute;top:10%;left:18%;">
+            <canvas id="bigimg"></canvas>
+        </div>
+    </div>
+     <script src="js/result.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Pose Estimation</title>
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+</head>
+<body>
+    <div class="bg">
+        <div class="title">
+            <h1 class="head">CWRU</h1>
+            <p id='home' class="head" style="font-size: large;">Home</p>
+            <a href="javascript:" id='about' class="head" style="font-size: large;">About</a>
+        </div>
+        <div class="right">
+            <p class="head" style="margin-left: 10%;font-size: 25px;">Body Pose Estimation</p>
+            <div class="main">
+                <div style="width: 20%;height:60%;position:relative">
+                    <input id="pic" style="opacity: 0;width:100%;width:100%;position: absolute;width: 100%;height: 100%;" type="file" 
+                     accept="image/png, image/jpeg" multiple/>
+                    <button class="upbutton" style="background-color: rgb(118,193,250);">Select Images</button>
+                </div>
+                <button class="button" id='pbutton' style="background-color: rgb(96,177,120);">Process Results</button>
+                <button class="button" id='cbutton' style="background-color: rgb(191,99,96);">Clear Images</button>
+            </div>
+            <div class="upload">Images Uploaded</div>
+            <ul id="re" class="picture"></ul>
+        </div>
+    </div>
+    <script src="js/home.js"></script>
+</body>
+</html>
